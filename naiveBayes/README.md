@@ -78,7 +78,5 @@ def predict(text):
 print(predict("Đồ ngu thật sự"))  # → 'hate' / 'offensive' / 'clean'
 ```
 
-## Thành viên nhóm
-
-- Neural MLP: (tên đồng đội)
-- Naive Bayes: (tên của em)
+## Tác giả
+- Naive Bayes: Nguyễn Việt Dũng
