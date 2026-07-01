@@ -1,0 +1,17 @@
+NAIVE BAYES - TEST SET EVALUATION
+============================================================
+
+Accuracy:          0.7758
+Macro F1:          0.5667
+Weighted F1:       0.7997
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+       clean     0.9440    0.8198    0.8775      5493
+        hate     0.3124    0.4257    0.3603       444
+   offensive     0.3584    0.6512    0.4623       688
+
+    accuracy                         0.7758      6625
+   macro avg     0.5383    0.6322    0.5667      6625
+weighted avg     0.8409    0.7758    0.7997      6625

@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.7758490566037736,
+  "macro_f1": 0.5667322259866898,
+  "weighted_f1": 0.7997435333055601,
+  "per_class_f1": {
+    "clean": 0.8775211926337328,
+    "hate": 0.3603431839847474,
+    "offensive": 0.46233230134158926
+  },
+  "targets_met": {
+    "macro_f1>=0.65": false,
+    "class0_f1>=0.90": false,
+    "class1_f1>=0.45": false,
+    "class2_f1>=0.55": false
+  }
+}

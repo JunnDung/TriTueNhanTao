@@ -1,0 +1,1109 @@
+[
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      2,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5813386086383119,
+    "per_class_f1_val": {
+      "clean": 0.8773491592482691,
+      "hate": 0.3755274261603376,
+      "offensive": 0.4911392405063291
+    },
+    "macro_f1_test": 0.5640973102710377,
+    "per_class_f1_test": {
+      "clean": 0.8766562743569758,
+      "hate": 0.3577545195052331,
+      "offensive": 0.4578811369509044
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      2,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5813386086383119,
+    "per_class_f1_val": {
+      "clean": 0.8773491592482691,
+      "hate": 0.3755274261603376,
+      "offensive": 0.4911392405063291
+    },
+    "macro_f1_test": 0.5640973102710377,
+    "per_class_f1_test": {
+      "clean": 0.8766562743569758,
+      "hate": 0.3577545195052331,
+      "offensive": 0.4578811369509044
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 50000,
+    "char_range": [
+      2,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5813386086383119,
+    "per_class_f1_val": {
+      "clean": 0.8773491592482691,
+      "hate": 0.3755274261603376,
+      "offensive": 0.4911392405063291
+    },
+    "macro_f1_test": 0.5640973102710377,
+    "per_class_f1_test": {
+      "clean": 0.8766562743569758,
+      "hate": 0.3577545195052331,
+      "offensive": 0.4578811369509044
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      2,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5806130189569585,
+    "per_class_f1_val": {
+      "clean": 0.8757132225254279,
+      "hate": 0.37627811860940696,
+      "offensive": 0.48984771573604063
+    },
+    "macro_f1_test": 0.5623984833179548,
+    "per_class_f1_test": {
+      "clean": 0.8759879012586593,
+      "hate": 0.35424354243542433,
+      "offensive": 0.4569640062597809
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5805112725287874,
+    "per_class_f1_val": {
+      "clean": 0.8721393034825871,
+      "hate": 0.37627811860940696,
+      "offensive": 0.493116395494368
+    },
+    "macro_f1_test": 0.5627301073454697,
+    "per_class_f1_test": {
+      "clean": 0.8717092337917485,
+      "hate": 0.3581267217630854,
+      "offensive": 0.45835436648157496
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5805112725287874,
+    "per_class_f1_val": {
+      "clean": 0.8721393034825871,
+      "hate": 0.37627811860940696,
+      "offensive": 0.493116395494368
+    },
+    "macro_f1_test": 0.5627301073454697,
+    "per_class_f1_test": {
+      "clean": 0.8717092337917485,
+      "hate": 0.3581267217630854,
+      "offensive": 0.45835436648157496
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.6,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5804796492513681,
+    "per_class_f1_val": {
+      "clean": 0.8764211566979733,
+      "hate": 0.37474541751527496,
+      "offensive": 0.490272373540856
+    },
+    "macro_f1_test": 0.5601162031130085,
+    "per_class_f1_test": {
+      "clean": 0.8771827138815725,
+      "hate": 0.34065934065934067,
+      "offensive": 0.4625065547981122
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.7,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5797373858062101,
+    "per_class_f1_val": {
+      "clean": 0.8750309329373918,
+      "hate": 0.37322515212981744,
+      "offensive": 0.4909560723514212
+    },
+    "macro_f1_test": 0.5598671688003752,
+    "per_class_f1_test": {
+      "clean": 0.8762705238467553,
+      "hate": 0.3415525114155251,
+      "offensive": 0.46177847113884557
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.4,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.579622863852526,
+    "per_class_f1_val": {
+      "clean": 0.8770633160877064,
+      "hate": 0.3795918367346939,
+      "offensive": 0.48221343873517786
+    },
+    "macro_f1_test": 0.5629896412887511,
+    "per_class_f1_test": {
+      "clean": 0.8782481751824818,
+      "hate": 0.34349030470914127,
+      "offensive": 0.46723044397463004
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5792659272425525,
+    "per_class_f1_val": {
+      "clean": 0.8694784127776392,
+      "hate": 0.3782696177062374,
+      "offensive": 0.4900497512437811
+    },
+    "macro_f1_test": 0.5614582323457071,
+    "per_class_f1_test": {
+      "clean": 0.8705234159779615,
+      "hate": 0.35379061371841153,
+      "offensive": 0.46006066734074824
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.5,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5789039790267061,
+    "per_class_f1_val": {
+      "clean": 0.8763268328807702,
+      "hate": 0.37474541751527496,
+      "offensive": 0.4856396866840731
+    },
+    "macro_f1_test": 0.5624925333456424,
+    "per_class_f1_test": {
+      "clean": 0.877411810563243,
+      "hate": 0.34375,
+      "offensive": 0.4663157894736842
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.5,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "class_weight": "none",
+    "macro_f1_val": 0.5789039790267061,
+    "per_class_f1_val": {
+      "clean": 0.8763268328807702,
+      "hate": 0.37474541751527496,
+      "offensive": 0.4856396866840731
+    },
+    "macro_f1_test": 0.5624925333456424,
+    "per_class_f1_test": {
+      "clean": 0.877411810563243,
+      "hate": 0.34375,
+      "offensive": 0.4663157894736842
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.8,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5788483966724212,
+    "per_class_f1_val": {
+      "clean": 0.8740704015865146,
+      "hate": 0.37398373983739835,
+      "offensive": 0.4884910485933504
+    },
+    "macro_f1_test": 0.5603299396432392,
+    "per_class_f1_test": {
+      "clean": 0.8756481753253106,
+      "hate": 0.3421292083712466,
+      "offensive": 0.46321243523316064
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      2,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5787621594207211,
+    "per_class_f1_val": {
+      "clean": 0.8736659220650286,
+      "hate": 0.37267080745341613,
+      "offensive": 0.4899497487437186
+    },
+    "macro_f1_test": 0.5608595677686784,
+    "per_class_f1_test": {
+      "clean": 0.8730298580518845,
+      "hate": 0.3542642924086223,
+      "offensive": 0.45528455284552843
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.15,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.576842468639871,
+    "per_class_f1_val": {
+      "clean": 0.88037109375,
+      "hate": 0.37344398340248963,
+      "offensive": 0.4767123287671233
+    },
+    "macro_f1_test": 0.5595654520985304,
+    "per_class_f1_test": {
+      "clean": 0.8815294004055229,
+      "hate": 0.332378223495702,
+      "offensive": 0.4647887323943662
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      2,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5767170139323748,
+    "per_class_f1_val": {
+      "clean": 0.8736031785448225,
+      "hate": 0.37344398340248963,
+      "offensive": 0.4831038798498123
+    },
+    "macro_f1_test": 0.5598416491152413,
+    "per_class_f1_test": {
+      "clean": 0.8720109760878088,
+      "hate": 0.3540315106580167,
+      "offensive": 0.45348246059989833
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.2,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5767012608323004,
+    "per_class_f1_val": {
+      "clean": 0.8804693229039354,
+      "hate": 0.37344398340248963,
+      "offensive": 0.47619047619047616
+    },
+    "macro_f1_test": 0.56074862198601,
+    "per_class_f1_test": {
+      "clean": 0.8807126258714175,
+      "hate": 0.3355450236966825,
+      "offensive": 0.4659882163899304
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      2,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5760195052991214,
+    "per_class_f1_val": {
+      "clean": 0.8743793445878848,
+      "hate": 0.37398373983739835,
+      "offensive": 0.4796954314720812
+    },
+    "macro_f1_test": 0.5646529207450522,
+    "per_class_f1_test": {
+      "clean": 0.8759523344403204,
+      "hate": 0.35878564857405704,
+      "offensive": 0.4592207792207792
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      3,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5759071197520916,
+    "per_class_f1_val": {
+      "clean": 0.8698254364089776,
+      "hate": 0.36960985626283366,
+      "offensive": 0.4882860665844636
+    },
+    "macro_f1_test": 0.5571168810722719,
+    "per_class_f1_test": {
+      "clean": 0.869231526124176,
+      "hate": 0.34552102376599636,
+      "offensive": 0.45659809332664325
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.3,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5758511869996731,
+    "per_class_f1_val": {
+      "clean": 0.8774858826417874,
+      "hate": 0.3760330578512397,
+      "offensive": 0.474034620505992
+    },
+    "macro_f1_test": 0.5647907278983307,
+    "per_class_f1_test": {
+      "clean": 0.8795180722891566,
+      "hate": 0.3448275862068966,
+      "offensive": 0.470026525198939
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.3,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "class_weight": "none",
+    "macro_f1_val": 0.5758511869996731,
+    "per_class_f1_val": {
+      "clean": 0.8774858826417874,
+      "hate": 0.3760330578512397,
+      "offensive": 0.474034620505992
+    },
+    "macro_f1_test": 0.5647907278983307,
+    "per_class_f1_test": {
+      "clean": 0.8795180722891566,
+      "hate": 0.3448275862068966,
+      "offensive": 0.470026525198939
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      2,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.575513584858054,
+    "per_class_f1_val": {
+      "clean": 0.8719860800397713,
+      "hate": 0.3772819472616633,
+      "offensive": 0.4772727272727273
+    },
+    "macro_f1_test": 0.5642690094951474,
+    "per_class_f1_test": {
+      "clean": 0.8724384743602314,
+      "hate": 0.36032757051865333,
+      "offensive": 0.4600409836065574
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 0.7,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.575038422355249,
+    "per_class_f1_val": {
+      "clean": 0.8740777176586325,
+      "hate": 0.37549407114624506,
+      "offensive": 0.47554347826086957
+    },
+    "macro_f1_test": 0.5481248484992557,
+    "per_class_f1_test": {
+      "clean": 0.8712871287128713,
+      "hate": 0.3228200371057514,
+      "offensive": 0.4502673796791444
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 1.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5749663317477727,
+    "per_class_f1_val": {
+      "clean": 0.8727183029107055,
+      "hate": 0.37573385518590996,
+      "offensive": 0.47644683714670255
+    },
+    "macro_f1_test": 0.5458576897489494,
+    "per_class_f1_test": {
+      "clean": 0.8701235528747933,
+      "hate": 0.31992687385740404,
+      "offensive": 0.447522642514651
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 1.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5742980537020104,
+    "per_class_f1_val": {
+      "clean": 0.8734491315136477,
+      "hate": 0.3665987780040733,
+      "offensive": 0.48284625158831
+    },
+    "macro_f1_test": 0.5593993828595959,
+    "per_class_f1_test": {
+      "clean": 0.8739100617223474,
+      "hate": 0.34306569343065696,
+      "offensive": 0.46122239342578325
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 1.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "class_weight": "none",
+    "macro_f1_val": 0.5742980537020104,
+    "per_class_f1_val": {
+      "clean": 0.8734491315136477,
+      "hate": 0.3665987780040733,
+      "offensive": 0.48284625158831
+    },
+    "macro_f1_test": 0.5593993828595959,
+    "per_class_f1_test": {
+      "clean": 0.8739100617223474,
+      "hate": 0.34306569343065696,
+      "offensive": 0.46122239342578325
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      4
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5739746491454781,
+    "per_class_f1_val": {
+      "clean": 0.873574615765989,
+      "hate": 0.3655030800821355,
+      "offensive": 0.48284625158831
+    },
+    "macro_f1_test": 0.5653045271693012,
+    "per_class_f1_test": {
+      "clean": 0.8767069840031213,
+      "hate": 0.35959221501390176,
+      "offensive": 0.45961438249088066
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      3,
+      4
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5739746491454781,
+    "per_class_f1_val": {
+      "clean": 0.873574615765989,
+      "hate": 0.3655030800821355,
+      "offensive": 0.48284625158831
+    },
+    "macro_f1_test": 0.5653045271693012,
+    "per_class_f1_test": {
+      "clean": 0.8767069840031213,
+      "hate": 0.35959221501390176,
+      "offensive": 0.45961438249088066
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 40000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 50000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 75000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 40000,
+    "max_feat_char": 30000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 50000,
+    "max_feat_char": 30000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573759901104895,
+    "per_class_f1_val": {
+      "clean": 0.8718330849478391,
+      "hate": 0.3613963039014374,
+      "offensive": 0.4880503144654088
+    },
+    "macro_f1_test": 0.5629149322724404,
+    "per_class_f1_test": {
+      "clean": 0.8737027609163893,
+      "hate": 0.35185185185185186,
+      "offensive": 0.46319018404907975
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      3,
+      4
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.573306842315963,
+    "per_class_f1_val": {
+      "clean": 0.8725465838509316,
+      "hate": 0.3625254582484725,
+      "offensive": 0.48484848484848486
+    },
+    "macro_f1_test": 0.5636870260806707,
+    "per_class_f1_test": {
+      "clean": 0.8749633395248803,
+      "hate": 0.35694572217111314,
+      "offensive": 0.4591520165460186
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 1.5,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5728970948701483,
+    "per_class_f1_val": {
+      "clean": 0.871055900621118,
+      "hate": 0.36400817995910023,
+      "offensive": 0.4836272040302267
+    },
+    "macro_f1_test": 0.5594967109349688,
+    "per_class_f1_test": {
+      "clean": 0.8715380082498527,
+      "hate": 0.3499546690843155,
+      "offensive": 0.4569974554707379
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 0.1,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5721244615708089,
+    "per_class_f1_val": {
+      "clean": 0.8825674690007294,
+      "hate": 0.3640256959314775,
+      "offensive": 0.4697802197802198
+    },
+    "macro_f1_test": 0.5598745021648639,
+    "per_class_f1_test": {
+      "clean": 0.883591271748534,
+      "hate": 0.33170731707317075,
+      "offensive": 0.4643249176728869
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 1.5,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5716345801386004,
+    "per_class_f1_val": {
+      "clean": 0.8707684704719545,
+      "hate": 0.37401574803149606,
+      "offensive": 0.4701195219123506
+    },
+    "macro_f1_test": 0.5504304501193776,
+    "per_class_f1_test": {
+      "clean": 0.869904427540472,
+      "hate": 0.3278985507246377,
+      "offensive": 0.45348837209302323
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 0.5,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5705331447132889,
+    "per_class_f1_val": {
+      "clean": 0.8731288343558282,
+      "hate": 0.3712574850299401,
+      "offensive": 0.4672131147540984
+    },
+    "macro_f1_test": 0.5504978640922334,
+    "per_class_f1_test": {
+      "clean": 0.8735721200387222,
+      "hate": 0.32372093023255816,
+      "offensive": 0.45420054200542004
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      3,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5700769554408583,
+    "per_class_f1_val": {
+      "clean": 0.8655146506386175,
+      "hate": 0.3709677419354839,
+      "offensive": 0.47374847374847373
+    },
+    "macro_f1_test": 0.5533426763630024,
+    "per_class_f1_test": {
+      "clean": 0.8665942529870643,
+      "hate": 0.33992805755395683,
+      "offensive": 0.4535057185479861
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5680843531207662,
+    "per_class_f1_val": {
+      "clean": 0.8637274549098196,
+      "hate": 0.36072144288577157,
+      "offensive": 0.47980416156670747
+    },
+    "macro_f1_test": 0.5537562470846183,
+    "per_class_f1_test": {
+      "clean": 0.8654473554127533,
+      "hate": 0.3416815742397138,
+      "offensive": 0.4541398116013882
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 0.3,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5665536873922415,
+    "per_class_f1_val": {
+      "clean": 0.874572962420693,
+      "hate": 0.3629032258064516,
+      "offensive": 0.46218487394957986
+    },
+    "macro_f1_test": 0.5484182320848522,
+    "per_class_f1_test": {
+      "clean": 0.8752891287586738,
+      "hate": 0.3197729422894986,
+      "offensive": 0.45019262520638414
+    }
+  },
+  {
+    "model_class": "ComplementNB",
+    "alpha": 0.1,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      3,
+      5
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5605764115635709,
+    "per_class_f1_val": {
+      "clean": 0.8784956605593057,
+      "hate": 0.35294117647058826,
+      "offensive": 0.4502923976608187
+    },
+    "macro_f1_test": 0.5445446824918644,
+    "per_class_f1_test": {
+      "clean": 0.8774847094801224,
+      "hate": 0.3098311817279047,
+      "offensive": 0.44631815626756605
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 20000,
+    "char_range": [
+      4,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5560892433199981,
+    "per_class_f1_val": {
+      "clean": 0.854757085020243,
+      "hate": 0.3508771929824561,
+      "offensive": 0.4626334519572954
+    },
+    "macro_f1_test": 0.5416526464801573,
+    "per_class_f1_test": {
+      "clean": 0.8579970104633782,
+      "hate": 0.3202846975088968,
+      "offensive": 0.446676231468197
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 30000,
+    "char_range": [
+      4,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5555900251536694,
+    "per_class_f1_val": {
+      "clean": 0.8548999746771334,
+      "hate": 0.3508771929824561,
+      "offensive": 0.46099290780141844
+    },
+    "macro_f1_test": 0.5418566784064044,
+    "per_class_f1_test": {
+      "clean": 0.8585949177877429,
+      "hate": 0.31956912028725315,
+      "offensive": 0.447405997144217
+    }
+  },
+  {
+    "model_class": "MultinomialNB",
+    "alpha": 2.0,
+    "max_feat_word": 30000,
+    "max_feat_char": 15000,
+    "char_range": [
+      4,
+      6
+    ],
+    "smote_pct": 1.0,
+    "smote_desc": "100pct",
+    "macro_f1_val": 0.5553570981264927,
+    "per_class_f1_val": {
+      "clean": 0.8551165146909828,
+      "hate": 0.35247524752475246,
+      "offensive": 0.4584795321637427
+    },
+    "macro_f1_test": 0.545955342753147,
+    "per_class_f1_test": {
+      "clean": 0.8577134298552171,
+      "hate": 0.3291814946619217,
+      "offensive": 0.4509711037423022
+    }
+  }
+]

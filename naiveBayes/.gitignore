@@ -12,3 +12,6 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# Jupyter nbconvert byproducts
+*.nbconvert.ipynb
