@@ -11,13 +11,26 @@ import unicodedata
 from pathlib import Path
 from typing import Optional
 
-# Vietnamese stopwords tối thiểu — sẽ được mở rộng ở Task 3
+# Vietnamese stopwords — mở rộng ở Task 3
 VIETNAMESE_STOPWORDS: set[str] = {
-    "là", "thì", "của", "và", "có", "được", "cho", "trong", "với", "một",
-    "những", "các", "đã", "đang", "sẽ", "rằng", "thế", "như", "nên",
-    "thì", "mà", "đó", "này", "kia", "ở", "trên", "dưới", "vào", "ra",
-    "lên", "xuống", "đi", "lại", "rồi", "nữa", "thôi", "nhé", "ạ", "ơi",
-    "à", "nhỉ", "ha", "hả", "vẫn", "còn", "vì", "do", "bị", "bởi",
+    # đại từ
+    "tôi", "bạn", "mình", "tao", "mày", "nó", "họ", "chúng", "ta", "chúng_ta",
+    "chúng_tao", "chúng_mày", "anh", "chị", "em", "ông", "bà", "cô", "chú",
+    # trợ động từ
+    "là", "thì", "có", "được", "đã", "đang", "sẽ", "bị", "hãy", "cứ", "nên",
+    # giới từ
+    "của", "với", "trong", "ngoài", "trên", "dưới", "trước", "sau", "vào",
+    "ra", "lên", "xuống", "từ", "đến", "về", "theo", "bằng",
+    # liên từ
+    "và", "hay", "hoặc", "nhưng", "mà", "vì", "do", "bởi", "nếu", "thì", "rằng",
+    # mạo từ / chỉ từ
+    "một", "những", "các", "này", "đó", "kia", "đây", "đấy", "ấy",
+    # động từ phổ biến
+    "đi", "lại", "rồi", "nữa", "thôi", "thêm", "cũng", "vẫn", "còn", "mới",
+    "chỉ", "đều", "đâu", "đâu_đó", "chỉ_có", "cả", "cảm_ơn", "ơi", "à", "ạ",
+    "nhé", "nhỉ", "ha", "hả", "vẫn",
+    # số
+    "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín", "mười",
 }
 
 _RE_URL = re.compile(r"https?://\S+|www\.\S+")
@@ -25,7 +38,14 @@ _RE_EMAIL = re.compile(r"\S+@\S+\.\S+")
 _RE_MENTION = re.compile(r"@\w+")
 _RE_MD = re.compile(r"[`*_~#>]+")
 _RE_REPEAT = re.compile(r"(.)\1{2,}")
-_RE_NONWORD = re.compile(r"[^\w\s\u00C0-\u024F\u1E00-\u1EFF]+", re.UNICODE)
+_RE_NONWORD = re.compile(
+    # Keep: Unicode letters (incl. Vietnamese), digits, underscores, whitespace.
+    # Remove: everything else — punctuation, emoji, symbols, combining diacritics.
+    # Covers NFC Vietnamese (ă, â, đ, ê, ô, ơ, ư) and NFD combining marks
+    # (U+0300–U+036F general diacritics, U+031B combining horn).
+    r"[^\w\u00C0-\u024F\u1E00-\u1EFF\s\u0300-\u036F\u031B]",
+    re.UNICODE,
+)
 
 
 def _load_json(path: Path) -> dict:
@@ -42,11 +62,20 @@ def _normalize_repeats(text: str) -> str:
 
 
 def _replace_with_map(text: str, mapping: dict[str, str]) -> str:
-    """Replace emojis/teencode using char-level mapping."""
-    out = text
+    """Replace teencode using word-boundary-aware regex to prevent mid-word
+    corruption (e.g. 'k' inside 'không' must not be replaced as a word).
+    Emoji keys use simple string replacement since emoji are always isolated
+    symbol tokens where \b boundaries are unreliable."""
     for k, v in mapping.items():
-        out = out.replace(k, f" {v} ")
-    return out
+        # Emoji: simple string replace (emoji are never part of word characters,
+        # so we can't use \b; we process them first and they only appear as tokens).
+        # Teencode: use word boundaries to avoid replacing 'k' inside 'không'.
+        if k.isascii():
+            pattern = r"\b" + re.escape(k) + r"\b"
+            text = re.sub(pattern, f" {v} ", text, flags=re.IGNORECASE)
+        else:
+            text = text.replace(k, f" {v} ")
+    return text
 
 
 def preprocess_text(
