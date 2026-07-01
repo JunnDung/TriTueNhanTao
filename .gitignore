@@ -1,3 +1,6 @@
 # Naive Bayes model artifacts
 naiveBayes/model/*.pkl
 naiveBayes/model/*.joblib
+
+# Scratch / workflow artifacts (subagent-driven-development)
+.superpowers/
