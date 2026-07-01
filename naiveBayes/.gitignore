@@ -1,0 +1,14 @@
+# Model artifacts (large binary files)
+model/*.pkl
+model/*.joblib
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env

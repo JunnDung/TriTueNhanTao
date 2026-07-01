@@ -1,0 +1,3 @@
+# Naive Bayes model artifacts
+naiveBayes/model/*.pkl
+naiveBayes/model/*.joblib
