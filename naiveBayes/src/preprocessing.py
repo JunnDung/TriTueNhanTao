@@ -22,7 +22,7 @@ VIETNAMESE_STOPWORDS: set[str] = {
     "của", "với", "trong", "ngoài", "trên", "dưới", "trước", "sau", "vào",
     "ra", "lên", "xuống", "từ", "đến", "về", "theo", "bằng",
     # liên từ
-    "và", "hay", "hoặc", "nhưng", "mà", "vì", "do", "bởi", "nếu", "thì", "rằng",
+    "và", "hay", "hoặc", "nhưng", "mà", "vì", "do", "bởi", "nếu", "rằng",
     # mạo từ / chỉ từ
     "một", "những", "các", "này", "đó", "kia", "đây", "đấy", "ấy",
     # động từ phổ biến
