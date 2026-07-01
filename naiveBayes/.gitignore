@@ -1,6 +1,5 @@
-# Model artifacts (large binary files)
-model/*.pkl
-model/*.joblib
+# Model artifacts intentionally kept tracked so collaborators can download them
+# for inference / website integration (see docs/superpowers/specs).
 
 # Notebook checkpoints
 .ipynb_checkpoints/

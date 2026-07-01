@@ -4,3 +4,6 @@ naiveBayes/model/*.joblib
 
 # Scratch / workflow artifacts (subagent-driven-development)
 .superpowers/
+
+# Internal design docs (kept locally for reference, not pushed to repo)
+docs/superpowers/
